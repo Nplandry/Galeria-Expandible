@@ -33,25 +33,51 @@ html, body {
     width: 400px;
     transition: 1s;
 }
+.img-box p {
+    top: 650px;
+    position: absolute;
+    opacity: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:cornsilk;
+    font-weight: bolder;
+}
 .img-box:hover #text-1 {
     position: absolute;
     top: 550px;
-    left: 418px;
+    left: 315px;
     font-size: 40px;
     opacity: 1;
-    transition: 0.1s;
+    transition: 0.3s;
+    transition-delay: 0.4s;
     
 }
 .img-box:hover #text-2 {
     position: absolute;
     top: 550px;
-    left: 610px;
+    left: 510px;
     font-size: 40px;
     opacity: 1;
     transition: 0.1s;
-    
+    transition-delay: 0.4s;
 }
-
+.img-box:hover #text-3 {
+    position: absolute;
+    top: 550px;
+    left: 820px;
+    font-size: 40px;
+    opacity: 1;
+    transition: 0.1s;
+    transition-delay: 0.4s;
+}
+.img-box:hover #text-4 {
+    position: absolute;
+    top: 550px;
+    left: 960px;
+    font-size: 40px;
+    opacity: 1;
+    transition: 0.1s;
+    transition-delay: 0.4s;
+}
 .img-box {
     
     background-size: 1100px;
@@ -61,27 +87,38 @@ html, body {
 }
 #img-box1:hover {
     background-position-x: -450px;
+    opacity: 1;
 }
 
 #img-box1{
     background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/LC5MOYPX2JA25NY5H5KKMPREJI.jpg);
+    opacity: 0.2;
 }
 #img-box2 {
     background-image: url(https://www.santevet.es/uploads/images/es_ES/razas/goldenretrieverrazaseguroperro.jpeg);
-    background-position-x: -375px;
+    background-position-x: -265px;
+    background-size: 900px;
+    opacity: 0.2;
+}
+#img-box2:hover {
+    opacity: 1;
 }
 #img-box3 {
     background-image: url(https://e.rpp-noticias.io/xlarge/2016/05/17/590059_143332.jpg);
     background-position-x: -630px;
+    opacity: 0.2;
 }
 #img-box3:hover {
     background-position-x: -510px;
+    opacity: 1;
 }
 #img-box4 {
     background-image: url(https://www.zooplus.es/magazine/wp-content/uploads/2021/09/Cane-corso-1-1.jpg);
     background-position-x: -600px;
     background-position-y: -100px;
+    opacity: 0.2;
 }
 #img-box4:hover {
     background-position-x: -500px;
+    opacity: 1;
 }
